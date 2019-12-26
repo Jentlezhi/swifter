@@ -1,5 +1,8 @@
 import UIKit
 
+
+//: [上一页](@previous)
+
 var str = "Hello, playground"
 
 let a = 10
@@ -25,3 +28,20 @@ func 😘😘(){
 
 print(Int8.max)
 print(Int.max)
+
+//元祖
+let error = (404,"Not Found!")
+error.0
+error.1
+
+let (statusCode,statusDesc) = error
+statusCode
+statusDesc
+
+let (anotherStatusCode,_) = error
+anotherStatusCode
+//添加标签
+let http200Status = (statusCode: 200,desc: "ok")
+http200Status.statusCode
+http200Status.desc
+
