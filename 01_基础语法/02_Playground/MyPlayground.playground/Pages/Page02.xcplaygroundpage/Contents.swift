@@ -40,5 +40,8 @@ print(range.contains(4))
 print(range.contains(5))
 //print(range.contains(Int64.min))
 
+let c = 43
+print(c<<1)
+
 
 //: [下一页](@next)
